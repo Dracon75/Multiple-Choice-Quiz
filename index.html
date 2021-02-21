@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link src=Assets/style.css rel="stylesheet">
+
+    <title>API Code Quiz</title>
+</head>
+
+<body>
+    <div class="custom-nav">
+        <button type="button" class="btn btn-primary my-1 start-btn" id="start-btn">Start</button>
+        <button type="button" class="btn btn-secondary my-1 highscore-btn" id="highscore-btn">high scores</button>
+        <button type="button" class="btn btn-primary my-1 clear-btn" id="clear-btn">Reset Timer</button>
+        
+        <div class="counter-container">
+            <h2 id="counter"></h2>
+        </div>
+        <br>
+        <section>
+            <br>
+            <div class="custom-questions row col-lg-4 mx-auto text-left" id="custom-questions">
+                </div>
+                <br><br>
+                <div id="question-visibility" data-state="hidden">
+                    <div class="custom-q1">Which invasive species has been found in the Great Lakes<br>
+                        <div class="btn-group-vertical my-5">
+                            <button type="button" class="btn btn-primary btn1-q1 my-1">armored catfish</button><button
+                                type="button" class="btn btn-primary btn2-q1 my-1">wooly mammoth</button><button
+                                type="button" class="btn btn-primary btn3-q1 my-1">asian swamp eel</button><button
+                                type="button" class="btn btn-primary btn4-q1 my-1">sea lamprey</button>
+                        </div>
+                        <hr>
+                        <div class="custom-correct">Correct</div>
+                        <div class="custom-wrong">Wrong</div>
+                        <br>
+                    </div>
+
+                    <div class="custom-q2">How were the Great Lakes formed<br>
+                        <div class="btn-group-vertical justify-content-between my-5">
+                            <button type="button" class="btn btn-primary btn1-q2 my-1">a meteorite</button><button
+                                type="button" class="btn btn-primary btn2-q2 my-1">aliens</button><button type="button"
+                                class="btn btn-primary btn3-q2 my-1">erosion over many years</button><button
+                                type="button" class="btn btn-primary btn4-q2 my-1">glaciers</button>
+                        </div>
+                        <hr>
+                        <div class="custom-correct">Correct</div>
+                        <div class="custom-wrong">Wrong</div>
+                        <br>
+                    </div>
+
+                    <div class="custom-q3">When were the Great Lakes formed according to modern evolutionary science<br>
+                        <div class="btn-group-vertical justify-content-between my-5">
+                            <button type="button" class="btn btn-primary btn1-q3 my-1">400 billion years
+                                ago</button><button type="button" class="btn btn-primary btn2-q3 my-1">1500 years
+                                ago</button><button type="button" class="btn btn-primary btn3-q3 my-1">3,000 years
+                                ago</button><button type="button" class="btn btn-primary btn4-q4 my-1">3 million years
+                                ago</button>
+                        </div>
+                        <hr>
+                        <div class="custom-correct">Correct</div>
+                        <div class="custom-wrong">Wrong</div>
+                        <br>
+                    </div>
+
+                    <div class="custom-q4">How many Great Lakes are there<br>
+                        <div class="btn-group-vertical justify-content-between my-5">
+                            <button type="button" class="btn btn-primary btn1-q4 my-1">1</button><button type="button"
+                                class="btn btn-primary btn2-q4 my-1">3</button><button type="button"
+                                class="btn btn-primary btn3-q4 my-1">5</button><button type="button"
+                                class="btn btn-primary btn4-q4 my-1">7</button>
+                        </div>
+                        <hr>
+                        <div class="custom-correct">Correct</div>
+                        <div class="custom-wrong">Wrong</div>
+                        <br>
+                    </div>
+
+                    <div class="custom-q5">Which of the Great Lakes is the largest by volumn of water<br>
+                        <div class="btn-group-vertical justify-content-between my-5">
+                            <button type="button" class="btn btn-primary btn1-q5 my-1">Lake Michigan</button><button
+                                type="button" class="btn btn-primary btn2-q5 my-1">Lake Huron</button><button
+                                type="button" class="btn btn-primary btn3-q5 my-1">Lake Ontario</button><button
+                                type="button" class="btn btn-primary btn4-q5 my-1">Lake Superior</button>
+                        </div>
+                        <hr>
+                        <div class="custom-correct">Correct</div>
+                        <div class="custom-wrong">Wrong</div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="row justify-content-center">
+              <div class="col-6">
+                <h3>High Scores</h3>
+                <br />
+                <form id="skills-form">
+                  <div class="form-group row">
+                    <label for="skill" class="col-sm-4 col-form-label">Name/Initials:
+                    </label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="skill-name" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary my-1 GoBack-btn">Go Back</button>
+            <button type="button" class="btn btn-primary my-1 ClearHighScores-btn">Clear High Scores</button>
+          </div>
+            
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="Assets/script.js"></script>
+</body>
