@@ -1,0 +1,25 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.custom-questions{
+    width: 33%;
+    height:350px;
+}
+
+.custom-nav{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.counter-container{
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
